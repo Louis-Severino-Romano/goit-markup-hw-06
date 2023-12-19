@@ -348,6 +348,9 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+.social-con{
+  margin-right: 120px;
+}
 .nav,
 .address {
   display: flex;
