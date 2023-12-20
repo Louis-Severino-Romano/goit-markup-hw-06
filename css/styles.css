@@ -5,11 +5,13 @@
   --parcolor: #434455;
   --fotcolor: #f4f4fd;
   --white: #fff;
+  --modalcol:#8e8f99;
 }
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -615,4 +617,12 @@ body {
 }
 .modal-form{
   margin-bottom: 8px;
+}
+.modal-label{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color:var(--modalcol);
+  display: block;
+  margin-bottom: 4px;
 }
