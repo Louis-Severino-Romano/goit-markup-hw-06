@@ -626,3 +626,11 @@ body {
   display: block;
   margin-bottom: 4px;
 }
+.modal-icon{
+  position: relative;
+}
+.modal-input{
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+}
