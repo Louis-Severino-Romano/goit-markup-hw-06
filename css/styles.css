@@ -6,6 +6,7 @@
   --fotcolor: #f4f4fd;
   --white: #fff;
   --modalcol: #8e8f99;
+  --checkcol:#404bff;
 }
 * {
   box-sizing: border-box;
@@ -674,11 +675,19 @@ body {
 .modal-check {
   margin-bottom: 24px;
 }
+.user-privacy:checked{
+  background-color: var(--checkcol);
+  border: none;
+  fill: var(--fotcolor);
+}
 .label-privacy {
   display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
   color: var(--modalcol);
 }
 .label-span {
