@@ -675,7 +675,7 @@ body {
 .modal-check {
   margin-bottom: 24px;
 }
-.user-privacy:checked{
+.user-privacy:checked, .label-privacy:checked{
   background-color: var(--checkcol);
   border: none;
   fill: var(--fotcolor);
