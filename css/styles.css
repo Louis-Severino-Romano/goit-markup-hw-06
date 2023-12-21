@@ -675,7 +675,12 @@ body {
 .modal-check {
   margin-bottom: 24px;
 }
-.user-privacy:checked, .label-privacy:checked{
+.user-privacy:checked{
+  background-color: var(--checkcol);
+  border: none;
+  fill: var(--fotcolor);
+}
+.label-privacy:checked{
   background-color: var(--checkcol);
   border: none;
   fill: var(--fotcolor);
