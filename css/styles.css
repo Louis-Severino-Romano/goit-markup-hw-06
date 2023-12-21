@@ -717,7 +717,7 @@ body {
   min-width: 169px;
   height: 56px;
   font-family: 'Roboto',sans-serif;
-  
+  margin: auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
