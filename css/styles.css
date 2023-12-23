@@ -6,7 +6,7 @@
   --fotcolor: #f4f4fd;
   --white: #fff;
   --modalcol: #8e8f99;
-  --checkcol:#404bbf;
+  --highlight-color: #404bbf;
 }
 * {
   box-sizing: border-box;
@@ -693,7 +693,7 @@ body {
   fill: transparent;
 }
 .user-privacy-input:checked+.label-privacy .user-privacy-span{
-  background-color:var(--checkcol);
+  background-color:var(--highlight-color);
   border:none;
   fill: var(--fotcolor);
 }
