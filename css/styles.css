@@ -382,17 +382,7 @@ body {
 }
 .visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-  outline: 0;
-  outline-offset: 0;
+  opacity: 0;
 }
 .list-item {
   /* margin-right: 24px;    */
@@ -677,10 +667,7 @@ body {
   margin-bottom: 24px;
 }
 
-
-  /* border: none;
-  fill: var(--fotcolor); */
-
+ 
 .label-privacy {
   display: block;
   font-size: 12px;
@@ -688,11 +675,11 @@ body {
   letter-spacing: 0.04em;
   align-items: center;
   justify-content: center;
-  fill: transparent;
+  
   color: var(--modalcol);
 }
 
-.user-privacy {
+.user-privacy-span{
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -705,8 +692,10 @@ body {
   justify-content: center;
   fill: transparent;
 }
-.user-privacy:checked+.user-privacy{
+.user-privacy-input.visually-hidden:checked+.user-privacy-span{
   background-color: var(--checkcol);
+  border: none;
+  fill: var(--fotcolor);
 }
 .modal-link{
   color:var(--blue);

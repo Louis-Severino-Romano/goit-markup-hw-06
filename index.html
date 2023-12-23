@@ -37,7 +37,7 @@
           <ul class="list">
             <li class="nav-list-item">
               <a href="./index.html" class="active nav-link-list link">Studio</a>
-            </li>
+                          </li>
             <li>
               <a href="./portfolio.html" class="nav-link-list link"
                 >Portfolio</a
@@ -637,12 +637,16 @@
             <textarea id="user-comment" name="user-comment" placeholder="Text input" class="modal-textarea"></textarea>
           </div>
           <div class="modal-check">
-            <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="user-privacy is-hidden"/>
             
+            <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="user-privacy-input">
             <label class="label-privacy" for="user-privacy">
-              <span class="user-privacy">
-                <svg width="10" height="8" class="checkbox-svg">
-                  <use href="./images/icons.svg#check"></use>
+              <span class="user-privacy-span">
+                <svg
+                  class="privacy-svg"
+                  width="10"
+                  height="8"
+                 >
+                  <use href="./images/icons.svg#check1"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the 
@@ -650,7 +654,7 @@
             </label>
           </div>
           <button class="modal-button">Send</button>
-
+          
         </form>
       </div>
     </div>
