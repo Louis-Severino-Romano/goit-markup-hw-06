@@ -694,12 +694,11 @@ body {
 }
 .user-privacy-input:checked+.label-privacy .user-privacy-span{
   background-color:var(--checkcol);
-  border: none;
+  border:none;
   fill: var(--fotcolor);
 }
 .modal-link{
   color:var(--blue);
-
 }
 .modal-button{
   display: block;
