@@ -676,18 +676,11 @@ body {
 .modal-check {
   margin-bottom: 24px;
 }
-.checkbox-svg{
-  display: block;
-  width: 16px;
-  height: 16px;
-  padding: 3px;
-  background-color: #ffffff;
-}
-.user-privacy:checked+.label-span{
-  background-color: var(--checkcol);
+
+
   /* border: none;
   fill: var(--fotcolor); */
-}
+
 .label-privacy {
   display: block;
   font-size: 12px;
@@ -698,7 +691,8 @@ body {
   fill: transparent;
   color: var(--modalcol);
 }
-.label-span {
+
+.user-privacy {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -710,6 +704,9 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.user-privacy:checked+.user-privacy{
+  background-color: var(--checkcol);
 }
 .modal-link{
   color:var(--blue);
