@@ -693,9 +693,9 @@ body {
   fill: transparent;
 }
 .user-privacy-input:checked+.label-privacy .user-privacy-span{
-  background-color: var(--checkcol);
+  background-color: #404bbf;
   border: none;
-  fill: var(--fotcolor);
+  fill: #F4F4FD;
 }
 .modal-link{
   color:var(--blue);
